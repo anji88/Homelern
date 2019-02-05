@@ -1,0 +1,467 @@
+.signin-signup {
+	z-index: 1065;
+}
+
+.sign-in-up-backdrop {
+	z-index: 1061;
+}
+
+.signin-signup .modal-dialog {
+	width: 375px;
+	margin-top: 90px;
+}
+
+.signin-signup .modal-content {
+	border-radius: 4px;
+	display: none;
+}
+
+.signin-signup .modal-content.active {
+	display: block;
+}
+
+.signin-signup .modal-header {
+	position: relative;
+}
+
+.signin-signup .modal-header {
+	padding: 24px;
+	padding-bottom: 0;
+	border: 0;
+}
+
+.signin-signup .modal-header .header {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-left: 15px;
+}
+
+.signin-signup .modal-header .header h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+	color: #404040;
+}
+
+.signin-signup .modal-header .header .close {
+	position: absolute;
+	float: none;
+	right: 24px;
+	top: 24px;
+	font-size: 30px;
+	font-weight: 300;
+	color: #404040;
+	line-height: 1;
+	opacity: 1;
+}
+
+.signin-signup .btn-social {
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 15px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	color: #fff;
+	display: inline-block;
+	padding-right: 50px;
+	width: 153px;
+}
+
+.signin-signup .social-btns svg {
+	fill: #fff;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	width: 26px;
+	height: 26px;
+	top: 12px;
+}
+
+.signin-signup .social-btns img {
+	position: absolute;
+	right: 15px;
+	font-size: 26px;
+	top: 12px;
+}
+
+.signin-signup .social-btns .fb {
+	background-color: #3b5998;
+	margin-right: 15px;
+}
+
+.signin-signup .btn-social.fb:hover,
+.signin-signup .btn-social.fb:focus {
+	background-color: #3b5998;
+	color: #fff;
+}
+
+.signin-signup .social-btns .gp {
+	border: 1px solid #cacaca;
+	color: #515050;
+	line-height: 1.7;
+	background-color: #fff;
+	padding-right: 30px;
+	font-size: 12px;
+	padding-left: 8px;
+}
+
+.signin-signup .social-btns .gp img {
+	width: 22px;
+	right: 4px;
+	top: 14px;
+}
+
+.signin-signup .btn-social.gp:hover,
+.signin-signup .btn-social.gp:focus {
+	background-color: #fff;
+	color: #515050;
+}
+
+.signin-signup .fb-text {
+	position: absolute;
+	font-size: 11px;
+	color: #F44336;
+	margin-top: 2px;
+}
+
+.signin-signup .or {
+	position: relative;
+	height: 48px;
+}
+
+.signin-signup .or span {
+	position: absolute;
+	display: block;
+	background-color: #fff;
+	width: 40px;
+	font-size: 13px;
+	left: 50%;
+	margin-left: -20px;
+	z-index: 2;
+	color: #adadad;
+	line-height: 1;
+	top: 50%;
+	margin-top: -6.5px;
+	text-align: center;
+}
+
+.signin-signup .or div {
+	position: absolute;
+	background-color: #e4e4e4;
+	width: 100%;
+	top: 50%;
+	margin-top: -0.5px;
+	height: 1px;
+	z-index: 1;
+}
+
+.signin-signup .modal-body {
+	padding: 0px 24px;
+}
+
+.signin-signup .form-group {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.signin-signup .form-control {
+	font-weight: 500;
+	color: #212121;
+	height: 48px;
+	border-color: #cacaca;
+	box-shadow: none;
+}
+
+.signin-signup .form-control::-moz-placeholder {
+	color: #212121;
+	opacity: 1;
+	font-weight: 400;
+}
+
+.signin-signup .form-control:-ms-input-placeholder {
+	color: #212121;
+	font-weight: 400;
+}
+
+.signin-signup .form-control::-webkit-input-placeholder {
+	color: #212121;
+	font-weight: 400;
+}
+
+.signin-signup .form-control:focus {
+	border-color: #605cf7;
+}
+
+.signin-signup .form-control.error {
+	border-color: #ff6666;
+}
+
+.signin-signup .form-control option.top-city {
+	background-color: #f2f2f2;
+	font-weight: 500;
+}
+
+.signin-signup .form-group label.error {
+	color: #ff6666;
+	font-weight: 400;
+	font-size: 12px;
+	margin: 0;
+	line-height: 16px;
+}
+
+.signin-signup .form-group .alert-success {
+	padding: 5px;
+	line-height: 16px;
+}
+
+.signin-signup .form-group svg {
+	display: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: 10px;
+	width: 18px;
+	height: 18px;
+	fill: #4caf50;
+}
+
+.signin-signup .form-control.valid {
+	padding-right: 32px;
+}
+
+.signin-signup .form-control.valid ~ svg {
+	display: inline-block;
+}
+
+.signin-signup .btn-block {
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+.signin-signup .btn-block .btn {
+	width: 100%;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	font-size: 17px;
+	line-height: 1;
+	font-weight: 500;
+}
+
+.signin-signup .modal-footer {
+	padding: 24px 0px;
+	margin: 0px 24px;
+	border-color: #e4e4e4;
+	text-align: left;
+	color: #535353;
+}
+
+.signin-signup .modal-footer .login {
+	color: #349cee;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: underline;
+	float: right;
+}
+
+.signin-signup .recovery-block {
+	padding-top: 96px;
+	margin: 0;
+}
+
+.signin-signup .referal-message {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.signin-signup .referal-message span {
+	display: inline-block;
+	background-color: #ffe1e1;
+	color: #999;
+	border: 1px dotted #bbb;
+	padding: 3px 5px;
+}
+
+.signin-signup .remember {
+	margin: 0;
+}
+
+.signin-signup .remember svg {
+	fill: #9a9a9a;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 0;
+	top: 12px;
+	display: inline-block;
+}
+
+.signin-signup .remember svg.check {
+	display: none;
+}
+
+.signin-signup .remember label {
+	padding-left: 20px;
+}
+
+#estimate-signin .remember label {
+	padding-left: 0px;
+}
+
+.signin-signup .remember label.active svg.uncheck {
+	display: none;
+}
+
+.signin-signup .remember label.active svg.check {
+	display: inline-block;
+}
+
+.signin-signup .forgot {
+	color: #f95656;
+	font-weight: 500;
+}
+
+.signin-signup .forgot:hover,
+.signin-signup .forgot:focus {
+	text-decoration: none;
+}
+
+.signin-signup .pdp_passwordd_recovery {
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	background: transparent;
+}
+
+#estimate-signin .pdp_passwordd_recovery {
+	background-color: #dff0d8;
+	border-radius: 6px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.signin-signup .modal-header .header {
+	padding-bottom: 15px;
+}
+
+.signin-signup .modal-header .header .close {
+	right: 15px;
+	top: 12px;
+}
+
+.signin-signup .modal-dialog {
+	width: 100%;
+}
+
+.signin-signup .btn-social {
+	font-size: 14px;
+	padding: 10px 15px;
+	width: 138px;
+	text-align: left;
+}
+
+.signin-signup .modal-header {
+	padding: 15px;
+}
+
+.signin-signup .modal-body {
+	padding: 0px 15px;
+}
+
+.signin-signup .modal-footer {
+	padding: 24px 0px;
+	margin: 0px 15px;
+}
+
+.signin-signup .social-btns i {
+	position: absolute;
+	right: 15px;
+	font-size: 22px;
+	top: 8px;
+}
+
+.signin-signup .social-btns img {
+	width: 22px;
+	right: 6px;
+}
+
+.signin-signup .social-btns .gp img {
+	right: 6px;
+	top: 8px;
+}
+
+.signin-signup .social-btns .gp {
+	padding-right: 28px;
+	font-size: 11px;
+	line-height: 1.8;
+	padding-left: 10px;
+}
+
+.signup-block .btn-social {
+	font-size: 13px;
+}
+
+.signin-signup .social-btns svg {
+	top: 7px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.signin-signup {
+	background-color: #fff;
+}
+
+.signin-signup .modal-dialog {
+	margin: 15px auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	min-height: 100%;
+}
+
+.signin-signup .modal-header .header {
+	margin-bottom: 20px;
+	padding-bottom: 24px;
+	margin-right: -24px;
+	margin-left: -24px;
+	padding-left: 24px;
+}
+
+.signin-signup .modal-content {
+	border-radius: 0px;
+	border: 0;
+	min-height: 100%;
+	box-shadow: none;
+}
+
+.signin-signup .recovery-block {
+	padding-top: 20px;
+	margin: 0;
+}
+
+.signin-signup .social-btns > a {
+	margin: 0;
+	width: 48%;
+	float: left;
+	margin-right: 0;
+}
+
+.signin-signup .social-btns .fb {
+	margin-right: 4%;
+}
+
+.signin-signup .social-btns:after,
+.signin-signup .social-btns:before {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+}
+
+
+/*# sourceMappingURL=maps/sign.css.map */
